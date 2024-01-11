@@ -13,6 +13,7 @@ body{
 
 
 nav {
+    display: flex;
     background:url('https://www.popwebdesign.net/images/tutorial/photoshop/ps-menu_1.jpg')
 }
 
@@ -32,7 +33,7 @@ ul li {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;  
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 li .nav-link {
@@ -41,7 +42,7 @@ li .nav-link {
 
 ul li a {
     text-decoration: none;    
-    font-size: 25px;
+   
     position: relative;
 }
 
@@ -69,18 +70,19 @@ ul li a {
     transition: 0.5s;
 }
 .search input{
-    width: 180px;
-    padding: 3px;
+    width: 150px;  
     font-size: 20px;
     box-sizing: border-box;
     outline: none;
     border-radius: 5px;
-    padding-right: 20px;
-    position: absolute;
+    padding: 5px;
+    margin-right: 5px;
+   
 }
 .search{
     color: white;
-    margin-left: 350px;
+    margin-left: 400px;
+   
 }
 
 
