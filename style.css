@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url('./ready-back-school.jpg');
+    background-image: url('https://img.freepik.com/free-photo/ready-back-school_1134-12.jpg?w=740&t=st=1704966858~exp=1704967458~hmac=a45a910e3f3b8d34caf55a3a5b187943ff8784867775bb9268aaee3a77d6e238');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -82,3 +82,22 @@ ul li a {
     color: white;
     margin-left: 350px;
 }
+
+
+
+
+
+/* ------media query ---- */
+
+@media (max-width: 1280px){
+
+}
+
+@media (max-width: 977px){
+
+}
+
+@media (max-width: 414px){
+
+}
+
