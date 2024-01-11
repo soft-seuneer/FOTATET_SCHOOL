@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./ready-back-school.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+nav {
+    background:url('https://www.popwebdesign.net/images/tutorial/photoshop/ps-menu_1.jpg')
+}
+
+.container-fluid{
+    justify-content: space-between;
+}
+#navbarNav{
+    width: 90%;
+   
+   justify-content: center;
+}
+nav div a img {
+   width: 150px;
+}
+
+ul li {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;  
+    margin-left: 70px;
+}
+
+li .nav-link {
+    color: white;   
+}
+
+ul li a {
+    text-decoration: none;    
+    font-size: 25px;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: chartreuse;
+}
+
+.navbar-nav .nav-item .nav-link::after{
+    content: "";
+    background-color: chartreuse;
+    height: 3%;
+    left: 0;
+    width: 50%;
+    bottom: -1px;
+    position: absolute;
+    transition: right 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.search input{
+    width: 180px;
+    padding: 3px;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    padding-right: 20px;
+    position: absolute;
+}
+.search{
+    color: white;
+    margin-left: 350px;
+}
