@@ -103,11 +103,34 @@ ul li a {
         margin-left: 63px;
     }
     .search input{
-        
-        margin-top: 10px;
-       
+        margin-top: 10px; 
+        font-size: 15px;      
+    }
+    nav div a img {
+        width: 100px;
+     }
+     ul li  {
+          
+        font-size: 15px;
+        margin-left: 10px;   
+    }
+
+    .navbar-nav .nav-item .nav-link::after{
+        content: "";
+        background-color: chartreuse;
+        height: 3%;
+        left: 0;
+        width: 5%;
+        bottom: -1px;
+        position: absolute;
+        transition: right 0.5s;
     }
     
+    .navbar-nav .nav-item .nav-link:hover::after{
+        width: 15%;
+       
+    }
+         
 }
 
 @media (max-width: 414px){
