@@ -97,6 +97,19 @@ ul li a {
 
 }
 
+@media (max-width: 590px){
+    .search{
+        color: white;
+        margin-left: 63px;
+    }
+    .search input{
+        
+        margin-top: 10px;
+       
+    }
+    
+}
+
 @media (max-width: 414px){
 
 }
